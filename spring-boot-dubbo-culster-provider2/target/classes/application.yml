@@ -1,0 +1,10 @@
+dubbo:
+  registry:
+    address: nacos://127.0.0.1:8848
+  application:
+    name: provider2
+  protocol:
+    name: dubbo
+    port: -1
+server:
+  port: 8082

@@ -1,0 +1,9 @@
+dubbo:
+  registry:
+    address: nacos://127.0.0.1:8848
+  application:
+    name: consumer
+  consumer:
+    timeout: 5000
+server:
+  port: 8080
