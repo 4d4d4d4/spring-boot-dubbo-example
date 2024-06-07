@@ -7,9 +7,10 @@
         <groupId>com.dubbo</groupId>
         <artifactId>spring-boot-dubbo-culster</artifactId>
         <version>1.0-SNAPSHOT</version>
+        <relativePath>../../pom.xml</relativePath>
     </parent>
 
-    <artifactId>spring-boot-dubbo-culster-consumer</artifactId>
+    <artifactId>spring-boot-dubbo-cluster-forking-provider1</artifactId>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
@@ -19,7 +20,7 @@
     <dependencies>
         <dependency>
             <groupId>com.dubbo</groupId>
-            <artifactId>spring-boot-dubbo-culster-interface</artifactId>
+            <artifactId>spring-boot-dubbo-cluster-forking-interface</artifactId>
             <version>1.0-SNAPSHOT</version>
             <scope>compile</scope>
         </dependency>

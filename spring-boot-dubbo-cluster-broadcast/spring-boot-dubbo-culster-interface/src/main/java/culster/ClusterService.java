@@ -1,6 +1,5 @@
 package culster;
 
-import org.apache.dubbo.config.annotation.Method;
 
 /**
  * @Classname CulsterService

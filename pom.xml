@@ -13,7 +13,12 @@
     <artifactId>spring-boot-dubbo-culster</artifactId>
     <packaging>pom</packaging>
     <modules>
-        <module>spring-boot-dubbo-culster-provider</module>
+        <module>spring-boot-dubbo-cluster-broadcast</module>
+        <module>spring-boot-dubbo-cluster-failover</module>
+        <module>spring-boot-dubbo-cluster-failover/spring-boot-dubbo-cluster-failover-provider1</module>
+        <module>spring-boot-dubbo-cluster-Forking</module>
+        <module>spring-boot-dubbo-cluster-Forking/spring-boot-dubbo-cluster-forking-provider1</module>
+        <module>spring-boot-dubbo-cluster-Forking/spring-boot-dubbo-cluster-forking-interface</module>
     </modules>
 
     <dependencies>
